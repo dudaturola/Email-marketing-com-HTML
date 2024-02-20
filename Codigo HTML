@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "pt_BR">
+	<head>
+		<title> HTML - Exercicio </title>
+		<meta charset="UTF-8">
+		<!-- tem como puxar o css pelo html usando essa tag <style type="text/css"></style>, no caso consegui trocar a font das letras usando ele -->
+		<style type="text/css"> 
+			body {
+				font-family: sans-serif;
+			} 
+		</style>
+	</head>
+	<body bgcolor="#CCCCCC">
+		
+		<!-- 
+			1. cabecalho
+			2. conteudo: imagem, titulo 1, paragrafo, botao, paragrafo com texto e link.
+			
+	
+		 -->
+		 <center>
+		 	<!-- html tem como padrao pixel ent nao precisa colocar 600px so colocar 600-->
+		 <table width="600" bgcolor="#FFFFFF">
+		 	<tr>
+		 		<td>
+		 			<img src="./imagens/cabecalho.png" alt="Cabecalho">
+		 		</td>
+		 	</tr>
+		 	<tr>
+		 		<!-- aling = alinhar -->
+		 		<td align="center">
+		 			<img src="./imagens/imagem.png" alt="imagem">
+		 			<h1 style="color: #5F3AA2">Inovacao para transformar</h1>
+		 			<p>Alem de comunicacao, estrategia e planejamento, operamos todos os processos buscando pela excelencia operacional e otimizacao de recursos, seja por meio da inovacao de nossa plataforma ou de parcerias estrategicas</p>
+		 			<a href="https://vasto.com.br" target="_blank"><!-- _blank faz o link abrir em uma nova aba quando apertar-->
+		 				<img src="./imagens/botao.png" alt="botao"> <!-- alt faz quando a imagem n carregar aparecer uma escricao pelo menos-->
+		 			</a>
+		 			<!-- _blank faz o link abrir em uma nova aba quando apertar-->
+		 			<p>Para mais informacoes acesse: <a href="https://vasto.com.br" target="_blank">vasto.com.br</a></p>
+		 		</td>
+		 	</tr>
+		 </table>
+		 	</center>
+
+	</body>
+</html>
